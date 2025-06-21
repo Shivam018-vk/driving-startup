@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /drill-driving
   ├── index.html
   ├── about.html
@@ -8,4 +9,16 @@
         ├── /css/style.css
         ├── /images/
         └── /js/script.js
+=======
+/drill-driving
+  ├── index.html
+  ├── about.html
+  ├── instructors.html
+  ├── booking.html
+  ├── contact.html
+  └── /assets
+        ├── /css/style.css
+        ├── /images/
+        └── /js/script.js
+>>>>>>> 5ca850fa71d7f3d113d98f43ac9ad8903ba0040d
     

@@ -159,3 +159,166 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Drill Driving</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0e0e0e;
+      color: #e0e0e0;
+    }
+
+    a {
+      text-decoration: none;
+      color: cyan;
+      font-weight: bold;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 15px 30px;
+      border-bottom: 1px solid #333;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px 20px;
+      background-color: #121212;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.05);
+      animation: fadeSlide 0.8s ease;
+    }
+
+    h2 {
+      text-align: center;
+      color: cyan;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      color: #bbb;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background-color: #1e1e1e;
+      color: white;
+      font-size: 16px;
+      resize: none;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: 0 0 10px cyan;
+    }
+
+    button {
+      padding: 12px;
+      background: #111;
+      color: cyan;
+      border: 2px solid cyan;
+      border-radius: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    }
+
+    button:hover {
+      background-color: cyan;
+      color: black;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px red, 0 0 30px cyan;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #ccc;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeSlide {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 30px 15px;
+        padding: 25px 15px;
+      }
+
+      input, textarea, button {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">← Back to Home</a>
+  </header>
+
+  <main>
+    <h2>Partner with Us</h2>
+    <p>Are you a driving school or individual instructor? Let’s connect!</p>
+    <form>
+      <div>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+      </div>
+
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+      </div>
+
+      <div>
+        <label for="message">Your Message:</label>
+        <textarea id="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Drill Driving | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+>>>>>>> 5ca850fa71d7f3d113d98f43ac9ad8903ba0040d
